@@ -1,4 +1,4 @@
-<img src="design/mockup.jpg" border-radius: 10px>
+<img src="design/mockup.jpg">
 
 <h1 align="center">
   🔥 QR Code Component
@@ -42,7 +42,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h3 id="autor">🧔 Autor</h3>
 
 
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/115656394?v=4" width="100px;" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/115656394?v=4" width="100px;" alt=""/>
  <sub><h3 style="margin: 0;">Diogo Kappaun 🚀</h3></sub>
 
 
