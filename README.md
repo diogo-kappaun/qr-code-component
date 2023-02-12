@@ -10,7 +10,6 @@
 
   ![Badge](https://img.shields.io/github/last-commit/diogo-kappaun/qr-code-component)
   ![Badge](https://img.shields.io/github/license/diogo-kappaun/qr-code-component)
-  ![Badge](https://img.shields.io/github/license/diogo-kappaun/qr-code-component)
   ![Badge](https://img.shields.io/github/languages/code-size/diogo-kappaun/qr-code-component)
   ![Badge](https://img.shields.io/github/stars/diogo-kappaun/qr-code-component?style=social)
 
