@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: var(--light-gray);
   font-size: 1.5rem;
 }
@@ -41,5 +41,5 @@ body {
   margin-top: 1.6rem;
   margin-bottom: 2.4rem;
   font-weight: 400;
-  color: var(--grayish-blue);
+  color: var(--grayish-blue); 
 }
