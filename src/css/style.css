@@ -16,6 +16,7 @@ body {
   background-color: var(--white);
   padding: 1.6rem;
   border-radius: 2rem;
+  box-shadow: 0 4px 4px #00000025;
 }
 
 .card .qrcode { 
@@ -38,7 +39,7 @@ body {
 
 .card .paragraph {
   margin-top: 1.6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2.4rem;
   font-weight: 400;
   color: var(--grayish-blue);
 }
