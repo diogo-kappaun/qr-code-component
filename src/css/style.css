@@ -1,43 +1,57 @@
+html { font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(217, 45%, 22%);
+}
+
 body {
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   background: var(--light-gray);
   font-size: 1.5rem;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  width: 32rem;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.card {
+main .card {
   background-color: var(--white);
   padding: 1.6rem;
   border-radius: 2rem;
-  box-shadow: 0 4px 4px #00000025;
+  box-shadow: 0 4px 30px 0 #00000015;
+  max-width: 32rem;
+  max-height: 49.7rem;
+  margin: 1rem;
 }
 
-.card .qrcode { 
+main .card .card-img { 
   width: 100%;
   border-radius: 1rem;
 }
 
-.card .sub-title,
-.card .paragraph {
+main .card .card-title,
+main .card .card-text {
   text-align: center;
   padding: 0 1.6rem;
 }
 
-.card .sub-title {
+main .card .card-title {
   margin-top: 2.4rem;
   color: var(--dark-blue);
   font-weight: 700;
   font-size: 2.2rem;
 }
 
-.card .paragraph {
+main .card .card-text {
   margin-top: 1.6rem;
   margin-bottom: 2.4rem;
   font-weight: 400;
